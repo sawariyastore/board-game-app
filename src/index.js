@@ -6,5 +6,5 @@ import "./css/index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Router>
-        <Route path='/board-game-app' exact component={Game}/>
+        <Route path='/' exact component={Game}/>
   </Router>);
